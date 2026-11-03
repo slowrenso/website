@@ -38,10 +38,7 @@ export const Footer = () => (
     </span>
     <span className={styles.break}> · </span>
     <span>
-      <a
-        className={styles.link}
-        href="https://github.com/lorenzocestaro/website"
-      >
+      <a className={styles.link} href="https://github.com/slowrenso/website">
         Source code
       </a>
     </span>

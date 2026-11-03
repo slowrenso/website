@@ -4,6 +4,10 @@ import { MenuItem, SocialLink } from "./types";
 
 export const MENU_ITEMS: MenuItem[] = [
   {
+    href: "/",
+    label: "Home",
+  },
+  {
     href: "/photography",
     label: "Photography",
   },
