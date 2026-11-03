@@ -24,36 +24,26 @@ export const About = () => (
     <h2 className={styles.h2}>Lorenzo</h2>
     <h3 className={styles.h3}>Software engineer and hobby photographer.</h3>
     <p className={styles.p}>
-      I work as a software engineer at{" "}
-      <Link className={styles.link} href="https://www.pit.com">
-        Pit
-      </Link>
-      , with extensive experience using{" "}
-      <Link className={styles.link} href="https://www.reactjs.org/">
-        React
-      </Link>
-      ,{" "}
-      <Link className={styles.link} href="https://www.typescriptlang.org/">
-        Typescript
-      </Link>{" "}
-      and{" "}
-      <Link className={styles.link} href="https://nodejs.org/">
-        Node
+      I enjoy landscape and travel photography and like taking pictures during
+      my trips, mainly film.
+    </p>
+    <p className={styles.p}>
+      You can find my favorite shots{" "}
+      <Link className={styles.link} href="/">
+        here
       </Link>
       .
     </p>
     <p className={styles.p}>
-      I am a self-taught software engineer with 10 years of experience. In my
-      career I collaborated in both backend and frontend teams, I have
-      experience across the stack and can add value to engineering teams on
-      multiple levels. I am product oriented and enjoy working in cross
+      I am also a self-taught software engineer with 10+ years of experience. I
+      enjoy working across the stack, although recently I have been working in
+      frontend-leaning roles. I am product oriented and enjoy working in cross
       functional teams, where I can independently drive initiatives and
       features.
     </p>
     <p className={styles.p}>
-      I like landscape photography and enjoy taking pictures during my travels,
-      mainly film. You can find my favorite shots{" "}
-      <Link className={styles.link} href="/">
+      Looking for a resume? Have a look{" "}
+      <Link className={styles.link} href="/resume" target="blank">
         here
       </Link>
       .
